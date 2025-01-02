@@ -1,0 +1,123 @@
+/* General Body Styling */
+body {
+    background-color: #afeeff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Notes Container */
+  .notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+  
+  /* Add Note Button */
+  .add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #9ec862;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .add:hover {
+    background-color: #88b052;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Notes Styling */
+  .note {
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .note .tools {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #9ec862;
+    padding: 0.5rem;
+  }
+  
+  .note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .note textarea {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    resize: none;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  /* Toolbar Buttons for Styling */
+  .note .toolbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f0f0f0;
+    padding: 5px;
+  }
+  
+  .note .toolbar button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .note .toolbar button:hover {
+    color: #9ec862;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #00acee;
+    transform: scale(1.2);
+  }
+  
